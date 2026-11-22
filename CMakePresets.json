@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "device",
+      "generator": "Unix Makefiles",
+      "binaryDir": "${sourceDir}/../build/${sourceDirName}/device",
+      "toolchainFile": "${sourceDir}/cmake/buildroot.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_INSTALL_PREFIX": "/usr"
+      }
+    }
+  ]
+}

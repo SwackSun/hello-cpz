@@ -1,0 +1,1 @@
+Print a greeting in the terminal
